@@ -1,0 +1,51 @@
+.navigation-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: rgb(85, 85, 255);
+
+  border-radius: 10px;
+  padding: 20px 0px;
+
+  color: white;
+
+  font-weight: bold;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: 700;
+
+  margin: 0px;
+  margin-left: 20px;
+}
+
+.navigation-anchor {
+  margin-right: 20px;
+}
+
+.menu-image {
+  width: 25px;
+  height: 25px;
+
+  margin-right: 30px;
+
+  display: none;
+}
+
+@media (481px <= width <= 768px) {
+  .navigation-panel {
+    display: none;
+  }
+
+.menu-image {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-image {
+    display: inline-block;
+  }
+}

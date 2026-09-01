@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  
+  margin: 10px;
+  font-family: "Open Sans";
+}
+
+button {
+  font-family: "Open Sans";
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .services-links-box {
+    grid-template-columns: 1fr;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .links-section {
+    align-items: center;
+  }
+}
